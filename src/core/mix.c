@@ -18,7 +18,11 @@
  * rows: motors 1-4
  */
 
-//ToDo - Add code for mix_4x - reference code for other configurations listed here.
+static double mix_4x[][6] = {
+    {0.0, 0.0, -1.0, -0.5, 0.5, 0.5}, 
+    {0.0, 0.0, -1.0, -0.5, -0.5, -0.5},
+    {0.0, 0.0, -1.0, 0.5, -0.5, 0.5}, 
+    {0.0, 0.0, -1.0, 0.5, 0.5, -0.5}};
 
 
 
